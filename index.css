@@ -4,14 +4,14 @@ p{font-family: roboto,poppins;}
 button{font-family: roboto,poppins;}
 a{font-family: roboto,poppins;text-decoration: none;}
 
-.main{width: 100vw;height: 100vh;overflow: hidden;}
+.main{width: 100vw;height: 100vh;overflow: hidden;background-color: rgba(0,0,0,0.2);}
 video{width: 100vw;height: 100vh;position: absolute;z-index: -1;object-fit: cover;}
 .logo{width: 150px;}
 header{display: flex;align-items: center;justify-content: space-between;}
 
 nav a {margin: 10px;text-transform: uppercase;color: white;font-weight: 600;padding: 15px;
 }
-nav a:hover{background-color: white;transition: 2s;color: black;}
+nav a:hover{background-color: white;transition: 2s;color: black;border-radius: 5px;}
 
 h1{text-align: center;color: white;margin-top: 70px;font-size: 90px;font-weight: 800;}
 button{
