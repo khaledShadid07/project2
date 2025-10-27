@@ -29,9 +29,9 @@ button:hover{background-color: rgb(0,192,226);transition: 0.5s;color: white;}
 }
 
 }
-@media screen and (hight<500px) {
+@media screen and (height<500px) {
   header{flex-direction: column;}
   h1{font-size: 35px;}
-  .main{width: 100vw;height: 150vh;overflow: hidden;} /* background-color: rgba(0,0,0,0.2); */
-video{width: 100vw;height: 150vh;position: absolute;z-index: -1;object-fit: cover;}
+  .main{height: 150vh;} /* background-color: rgba(0,0,0,0.2); */
+video{height: 150vh;}
 }
