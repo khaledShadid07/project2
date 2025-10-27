@@ -4,7 +4,7 @@ p{font-family: roboto,poppins;}
 button{font-family: roboto,poppins;}
 a{font-family: roboto,poppins;text-decoration: none;}
 
-.main{width: 100vw;height: 100vh;}
+.main{width: 100vw;height: 100vh;overflow: hidden;}
 video{width: 100vw;height: 100vh;position: absolute;z-index: -1;object-fit: cover;}
 .logo{width: 150px;}
 header{display: flex;align-items: center;justify-content: space-between;}
